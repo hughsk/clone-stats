@@ -5,8 +5,12 @@
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {},
-  "devDependencies": {},
-  "scripts": {},
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "scripts": {
+    "test": "node test"
+  },
   "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
   "license": "MIT",
   "repository": {
